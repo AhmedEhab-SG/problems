@@ -1,3 +1,5 @@
+use rust::problems::{Runable, Solution};
+
 fn main() {
-    println!("Hello, world!");
+    Solution::test();
 }
