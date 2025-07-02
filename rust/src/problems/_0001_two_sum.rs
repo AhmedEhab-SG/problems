@@ -2,7 +2,6 @@ use std::collections::HashMap;
 
 use crate::problems::*;
 
-// number: 1
 // problem: https://leetcode.com/problems/two-sum/
 impl Solution {
     pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
@@ -27,9 +26,6 @@ impl Solution {
 
 // impl Testable for Solution {
 //     fn test() {
-//         let nums = vec![2, 7, 11, 15];
-//         let target = 9;
-//         let result = Self::two_sum(nums, target);
-//         println!("Indices of numbers that add up to {}: {:?}", target, result);
+//         assert_eq!(Self::two_sum(vec![2, 7, 11, 15], 9), vec![0, 1]);
 //     }
 // }

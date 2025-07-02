@@ -1,5 +1,5 @@
-mod _00001_two_sum;
-mod _00002_add_two_numbers;
+mod _0001_two_sum;
+mod _0002_add_two_numbers;
 
 pub trait Testable {
     fn test();
